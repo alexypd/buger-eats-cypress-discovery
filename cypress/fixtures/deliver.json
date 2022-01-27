@@ -1,0 +1,50 @@
+{
+    "signup": {
+        "name": "Alex Yamada",
+        "cpf": "09422833680",
+        "email": "alex.yamped@gmail.com",
+        "whatsapp": "34998609390",
+        "address": {
+            "cep": "38400648",
+            "street": "Rua Ozório José da Cunha",
+            "number": "700",
+            "details": "Apto 802 A",
+            "district": "Brasil",
+            "city_state": "Uberlândia/MG"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "cpf_inv": {
+        "name": "Alex Yamada",
+        "cpf": "094228336AA",
+        "email": "alex.yamped@gmail.com",
+        "whatsapp": "34998609390",
+        "address": {
+            "cep": "38400648",
+            "street": "Rua Ozório José da Cunha",
+            "number": "700",
+            "details": "Apto 802 A",
+            "district": "Brasil",
+            "city_state": "Uberlândia/MG"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "email_inv": {
+        "name": "Alex Yamada",
+        "cpf": "09422833680",
+        "email": "www.gmail.com.br",
+        "whatsapp": "34998609390",
+        "address": {
+            "cep": "38400648",
+            "street": "Rua Ozório José da Cunha",
+            "number": "700",
+            "details": "Apto 802 A",
+            "district": "Brasil",
+            "city_state": "Uberlândia/MG"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    }
+}
