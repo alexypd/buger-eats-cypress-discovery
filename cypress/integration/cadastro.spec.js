@@ -4,7 +4,7 @@ import signupFactory from '../factories/SignupFactory'
 describe('Cadastro', () => {
 
 
-    it('Usuário deve se tornar um entregador', function () {
+    it('User should be deliver', function () {
 
         var deliver = signupFactory.deliver()
 
@@ -17,7 +17,7 @@ describe('Cadastro', () => {
 
     })
 
-    it('CPF incorreto', function () {
+    it('Incorrect document', function () {
 
         var deliver = signupFactory.deliver()
 
@@ -31,7 +31,7 @@ describe('Cadastro', () => {
 
     })
 
-    it('E-mail invalido', function () {
+    it('Invalid email', function () {
 
         var deliver = signupFactory.deliver()
 
@@ -50,7 +50,7 @@ describe('Cadastro', () => {
         const messages = [
             { field: 'name', output: 'É necessário informar o nome' },
             { field: 'cpf', output: 'É necessário informar o CPF' },
-            { field: 'email', output: 'É necessário informar o e-mail' },
+            { field: 'email', output: 'É necessário informar o email' },
             { field: 'cep', output: 'É necessário informar o CEP' },
             { field: 'number', output: 'É necessário informar o número do endereço' },
             { field: 'delivery_method', output: 'Selecione o método de entrega' },
